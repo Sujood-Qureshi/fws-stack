@@ -50,9 +50,9 @@ You can scaffold your project using the `create-fws-stack` CLI tool with any of 
 
 ### Using npm
 ```bash
-npx create-fws-stack
+npx create-fws-stack@latest
 ```
 ### Using pnpm
 ```bash
-pnpx create-fws-stack
+pnpx create-fws-stack@latest
 ```

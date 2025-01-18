@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# create-fws-stack
+
+A CLI tool for scaffolding a full-stack boilerplate made by [Sujood Qureshi](https://github.com/Sujood-Qureshi).
+
+## Table of Contents
+
+- [What is FWS Stack?](#what-is-fws-stack)
+- [Why Use FWS Stack?](#why-use-fws-stack)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+
+---
+
+## What is FWS Stack?
+
+The **FWS Stack** is a modern full-stack web development stack designed with **type safety**, **security**, and the adoption of **modern technologies** in mind. 
+
+It combines the best tools and frameworks to create scalable, performant, and developer-friendly applications, making it an excellent choice for both small projects and enterprise-level applications. With a strong focus on simplicity and maintainability, the stack ensures that your codebase remains clean and robust.
+
+---
+
+## Why Use FWS Stack?
+
+If you are a **Next.js developer**, the FWS Stack is tailored to your needs by integrating cutting-edge technologies to simplify your development process. Here's why you should consider it:
+
+1. **Type Safety**: Built with tools like TypeScript and Prisma, the FWS Stack minimizes runtime errors by ensuring strong typing throughout the application.
+2. **Edge Compatibility**: Use **HonoJS**, a lightweight and blazing-fast framework for API routes optimized for edge environments.
+3. **Modern UI Components**: With **Shadcn UI**, you get access to a rich set of customizable components that integrate seamlessly with TailwindCSS.
+4. **Secure Authentication**: Built-in support for **Lucia Auth** ensures a reliable and secure authentication flow.
+5. **Streamlined Development**: From database handling with Prisma to CLI scaffolding, the stack is designed to reduce setup time and boilerplate code.
+
+Whether you're working on a personal project, SaaS product, or enterprise app, **FWS Stack** equips you with the tools to ship faster without compromising quality.
+
+---
+
+## Technologies Used
+
+- [**Next.js - (App Router)**](https://nextjs.org/) for frontend.
+- [**Tailwind CSS**](https://tailwindcss.com/) for frontend.
+- [**TypeScript**](https://typescriptlang.org/) for frontend.
+- [**HonoJS**](https://hono.dev/) for edge-compatible API routes.
+- [**Prisma**](https://www.prisma.io/) for database handling.
+- [**Shadcn UI**](https://ui.shadcn.com/) for UI components.
+- [**Lucia Auth**](https://lucia-auth.com/) for Authentication.
 
 ## Getting Started
 
-First, run the development server:
+You can scaffold your project using the `create-fws-stack` CLI tool with any of the following package managers:
 
+### Using npm
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npx create-fws-stack
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Using pnpm
+```bash
+pnpx create-fws-stack
+```

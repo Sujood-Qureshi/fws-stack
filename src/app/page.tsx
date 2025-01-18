@@ -1,6 +1,10 @@
+import ClientFetchExample from "@/components/client/client-fetch-eg";
+import { client } from "@/lib/rpc";
 import Image from "next/image";
 
-export default function Home() {
+export default async function Home() {
+  const data = await client.api.sample.server.$get();
+  const { message } = await data.json()
   return (
     <div
       className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)] bg-stone-950 text-white tracking-wide"
@@ -33,6 +37,10 @@ export default function Home() {
             </a>
           </li>
         </ol>
+        <p className="bg-white/20 px-4 py-2 rounded-md">
+          {message}
+        </p>
+        <ClientFetchExample/>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a

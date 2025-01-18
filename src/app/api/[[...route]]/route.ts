@@ -1,3 +1,4 @@
+import { sampleController } from '@/server/sample/route'
 import { Hono } from 'hono'
 import { handle } from 'hono/vercel'
 
@@ -7,6 +8,7 @@ const app = new Hono().basePath('/api')
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const routes = app
+    .route('/sample', sampleController)
 
 export const GET = handle(app)
 export const POST = handle(app)

@@ -35,13 +35,14 @@ Whether you're working on a personal project, SaaS product, or enterprise app, *
 
 ## Technologies Used
 
-- [**Next.js - (App Router)**](https://nextjs.org/) for frontend.
-- [**Tailwind CSS**](https://tailwindcss.com/) for frontend.
-- [**TypeScript**](https://typescriptlang.org/) for frontend.
-- [**HonoJS**](https://hono.dev/) for edge-compatible API routes.
-- [**Prisma**](https://www.prisma.io/) for database handling.
-- [**Shadcn UI**](https://ui.shadcn.com/) for UI components.
-- [**Lucia Auth**](https://lucia-auth.com/) for Authentication.
+- [**Next.js - (App Router)**](https://nextjs.org/) for frontend development.
+- [**Tailwind CSS**](https://tailwindcss.com/) for styling the frontend.
+- [**TypeScript**](https://typescriptlang.org/) for type safety across the stack.
+- [**HonoJS**](https://hono.dev/) for edge-compatible API routes, designed for ultra-lightweight serverless functions.
+- [**TanStack Query**](https://tanstack.com/query/latest) for data fetching and synchronization across the application, designed to work seamlessly with APIs.
+- [**Prisma**](https://www.prisma.io/) for database access and ORM.
+- [**Shadcn UI**](https://ui.shadcn.com/) for pre-built UI components that are highly customizable.
+- [**Lucia Auth**](https://lucia-auth.com/) for user authentication, providing a simple and secure flow.
 
 ## Getting Started
 
